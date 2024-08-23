@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heart Letter by Alexx_deev</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="envelope-wrapper">
+    <div id="envelope" class="close">
+      <div class="front flap"></div>
+      <div class="front pocket"></div>
+      <div class="letter">
+        <div class="words line1"></div>
+        <div class="words line2"></div>
+        <div class="words line3"></div>
+        <div class="words line4"></div>
+        <!-- Agregamos el elemento para el texto de la carta -->
+        <div class="letter-text">Lucas 19:10 Porque el Hijo del Hombre vino a buscar
+             y a salvar lo que se había perdido
+             <BR>
+            <BR>
+            POR QUE DIOS QUIERE SALVARTE, YA NO ESTAS PERDIDO ❤️
+            </div>
+        <div class="card">
+          <div class="leaf"></div>
+        </div>
+      </div>
+      <div class="hearts" style="display: none;">
+        <div class="heart a1"></div>
+        <div class="heart a2"></div>
+        <div class="heart a3"></div>
+      </div>
+    </div>
+  </div>
+  <div class="reset" style="text-align: center;">
+    <button id="open" onclick="document.querySelector('.leaf').classList.add('zoom')">Open</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
