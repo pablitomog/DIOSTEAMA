@@ -143,3 +143,50 @@ body {
   .letter.zoom .front {
     display: none;
   }
+
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .audio-box {
+    background-color: #000000;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px; /* ancho del contenedor */
+  }
+  
+  .audio-box p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ddd;
+  }
+  
+  .audio-box audio {
+    width: 100%; /* ancho del audio */
+  }
+  
+  .btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
+  .btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+  }
